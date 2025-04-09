@@ -423,6 +423,7 @@ a:focus {
   .img-box {
     img {
       width: 100%;
+      min-height: 470px;
     }
   }
 
@@ -678,7 +679,7 @@ a:focus {
     &:hover {
       background-color: $primary2;
       color: $white;
-
+      
       .img-box {
         img {
           filter: brightness(0) invert(1);

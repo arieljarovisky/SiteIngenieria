@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   color: #0c0c0c;
@@ -116,11 +119,14 @@ a:focus {
 
 .header_section {
   border-top: 15px solid #da7426;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .header_section .header_top {
-  padding: 15px 0;
-  background-color: #000000;
+  padding: 0px 0;
+  background-color: #000000;;
 }
 
 .header_section .header_top .header_top_container {
@@ -934,6 +940,7 @@ a:focus {
 
 .client_section .box .img-box {
   width: 145px;
+  min-height: 500px;
   min-width: 145px;
   position: relative;
   border: 10px solid #da7426;
@@ -941,6 +948,7 @@ a:focus {
 
 .client_section .box .img-box img {
   width: 100%;
+  
 }
 
 .client_section .box .detail-box {
