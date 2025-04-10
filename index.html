@@ -29,7 +29,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
     integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
   <!-- font awesome style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
@@ -100,10 +102,10 @@
                   <a class="nav-link" href="#about"> NOSOTROS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">SERVICIOS</a>
+                  <a class="nav-link" href="#servicios">SERVICIOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">TRABAJOS</a>
+                  <a class="nav-link" href="#trabajos">TRABAJOS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">CONTACTO</a>
@@ -178,26 +180,16 @@
 
   <!-- end about section -->
 
+
+
   <!-- portfolio section -->
 
-  <section class="portfolio_section ">
+  <section class="portfolio_section " id="trabajos">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our Work Portfolio
+          Nuestros Trabajos
         </h2>
-      </div>
-      <div class="carousel-wrap ">
-        <div class="filter_box">
-          <nav class="owl-filter-bar">
-            <a href="#" class="item active" data-owl-filter="*">All</a>
-            <a href="#" class="item" data-owl-filter=".decorative">DECORATIVE</a>
-            <a href="#" class="item" data-owl-filter=".facade">FACADES </a>
-            <a href="#" class="item" data-owl-filter=".perforated">PERFORATED
-            </a>
-            <a href="#" class="item" data-owl-filter=".railing">RAILINGS </a>
-          </nav>
-        </div>
       </div>
     </div>
     <div class="owl-carousel portfolio_carousel">
@@ -206,8 +198,8 @@
           <div class="img-box">
             <img src="images/mediosdeproduccionylogistica.jpg" alt="" />
             <div class="btn_overlay">
-              <a href="" class="">
-                See More
+              <a href="images/mediosdeproduccionylogistica.jpg" target="_blank" class="trabajos">
+                Ver imagen
               </a>
             </div>
           </div>
@@ -218,8 +210,8 @@
           <div class="img-box">
             <img src="images/Crique.jpg" alt="" />
             <div class="btn_overlay">
-              <a href="" class="">
-                See More
+              <a href="images/Crique.jpg" target="_blank" class="trabajos">
+                Ver imagen
               </a>
             </div>
           </div>
@@ -230,8 +222,8 @@
           <div class="img-box">
             <img src="images/DSC00609.jpeg" alt="" />
             <div class="btn_overlay">
-              <a href="" class="">
-                See More
+              <a href="images/DSC00609.jpeg" target="_blank" class="trabajos">
+                Ver imagen
               </a>
             </div>
           </div>
@@ -240,10 +232,10 @@
       <div class="item railing">
         <div class="box">
           <div class="img-box">
-            <img src="images/Mordiscones.jpg" alt="Hidraulica"/>
+            <img src="images/Mordiscones.jpg" alt="Hidraulica" />
             <div class="btn_overlay">
-              <a href="" class="">
-                See More
+              <a href="images/Mordiscones.jpg" target="_blank" class="trabajos">
+                Ver imagen
               </a>
             </div>
           </div>
@@ -253,10 +245,58 @@
   </section>
 
   <!-- end portfolio section -->
+  <section class="clients_section">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 class="title_client"> Principales Clientes </h2>
+      </div>
+      <div class="owl-carousel clients_carousel">
+        <div class="client_logo">
+          <img src="images/aerolineas-argentinas-logo-png_seeklogo-217527.png" alt="Cliente 1" />
+        </div>
+        <div class="client_logo">
+          <img src="images/Edenor-Logo.svg.png" alt="Cliente 2" />
+        </div>
+        <div class="client_logo">
+          <img src="images/388591_386.png" alt="Cliente 3" />
+        </div>
+        <div class="client_logo">
+          <img src="images/pngwing.com.png" alt="Cliente 4" />
+        </div>
+        <div class="client_logo">
+          <img src="images/Tandanor_logo.png" alt="Cliente 5" />
+        </div>
+        <div class="client_logo">
+          <img src="images/images.png" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/klipartz.com.png" alt="Cliente 7" />
+        </div>
+        <div class="client_logo">
+          <img src="images/ae16b9cba01e0b64f539c9de1aa53148.png" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/[CITYPNG.COM]Renault New Logo HD PNG - 4000x4000.png" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/Latam-logo_-v_(Indigo).svg" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/Escudo_armada_argentina_banderolas.png" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/Falabella.svg.png" alt="Cliente 6" />
+        </div>
+        <div class="client_logo">
+          <img src="images/grupo_cyse-2.png" alt="Cliente 6" />
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" id="servicios">
     <div class="container ">
       <div class="heading_container heading_center">
         <h2>Nuestros <span>Servicios</span></h2>
@@ -272,7 +312,8 @@
                 Mantenimiento de equipos hidráulicos de izaje
               </h5>
               <p>
-                Trabajamos con todas las marcas de hidroelevadores e hidrogrúas del mercado (Hidro-Grubert, Axion, Hidráulica Móvil, AmcoVeba, PM, Zetla, y más.)
+                Trabajamos con todas las marcas de hidroelevadores e hidrogrúas del mercado (Hidro-Grubert, Axion,
+                Hidráulica Móvil, AmcoVeba, PM, Zetla, y más.)
               </p>
             </div>
           </div>
@@ -280,14 +321,15 @@
         <div class="col-sm-6 col-md-3">
           <div class="box ">
             <div class="img-box">
-              <img src="images/s2.png" alt="" />
+              <img src="images/s2.png" alt=""/>
             </div>
             <div class="detail-box">
               <h5>
                 Fabricación y reparación de medios de producción
               </h5>
               <p>
-                Nuestro equipo de ingenieros está preparado para diseñar y fabricar máquinas y mecanismos de todo tipo para cumplir los objetivos del cliente.
+                Nuestro equipo de ingenieros está preparado para diseñar y fabricar máquinas y mecanismos de todo tipo
+                para cumplir los objetivos del cliente.
               </p>
             </div>
           </div>
@@ -317,177 +359,80 @@
                 Certificación de equipos
               </h5>
               <p>
-                Llevamos a cabo ensayos de certificación en todos los equipos, y con todos los estándares de calidad necesarios para asegurar que cumplan con las normas vigentes. (WORKLIFT, TÜV, BUREAU-BERITAS)
+                Llevamos a cabo ensayos de certificación en todos los equipos, y con todos los estándares de calidad
+                necesarios para asegurar que cumplan con las normas vigentes. (WORKLIFT, TÜV, BUREAU-BERITAS)
               </p>
             </div>
           </div>
         </div>
 
       </div>
-      <div class="btn-box">
-        <a href="">
-          Read More
-        </a>
-      </div>
     </div>
+    <div class="container py-5">
+      <h1 class="section-title">Mantenimiento de Flotas Hidráulicas</h1>
+      <p class="mb-4">Ofrecemos una amplia gama de servicios para la industria: <span class="highlight">hidroelevadores,
+          hidrogrúas, centralinas hidráulicas, cilindros y bombas, barquillas y cestas aéreas.</span> Soluciones para
+        medios de izaje de todo tipo.</p>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="service-box">
+            <h5 class="mb-3"><i class="fas fa-certificate icon me-2"></i>Calidad y certificación</h5>
+            <p>Trabajamos bajo los más altos estándares de calidad. Realizamos certificaciones con empresas reconocidas
+              en el país como:</p>
+            <ul>
+              <li>WORKLIFT</li>
+              <li>TÜV RHEINLAND</li>
+              <li>BUREAU VERITAS</li>
+              <li>Y más</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-box">
+            <h5 class="mb-3"><i class="fas fa-history icon me-2"></i>Experiencia</h5>
+            <p>Más de <span class="highlight">30 años</span> en el rubro avalan nuestros trabajos. Contamos con todos
+              los medios necesarios para solucionar cualquier problema en equipos hidráulicos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-5">
+        <h2 class="section-title">Tipos de Mantenimiento</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-box h-100 text-center">
+              <i class="fas fa-microscope icon mb-3"></i>
+              <div class="test-title">Predictivo</div>
+              <p>Análisis minucioso sobre los componentes clave del vehículo, evaluando su durabilidad según modelo,
+                kilómetros, superficie y clima.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box h-100 text-center">
+              <i class="fas fa-tools icon mb-3"></i>
+              <div class="test-title">Preventivo</div>
+              <p>Se realiza según el mantenimiento predictivo o las especificaciones del fabricante para evitar fallas
+                graves y mantener el óptimo rendimiento.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box h-100 text-center">
+              <i class="fas fa-triangle-exclamation icon mb-3"></i>
+              <div class="test-title">Correctivo</div>
+              <p>Intervención y reparación posterior a una falla, con recambio total de partes mecánicas si es
+                necesario.</p>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
+
 
   <!-- end service section -->
 
   <!-- contact section -->
-  <section class="contact_section ">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>Get In <span>Touch</span></h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="form_container">
-            <form action="">
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" />
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
-                </div>
-                <div class="form-group col-lg-6">
-                  <select name="" id="" class="form-control wide">
-                    <option value="">Select Service</option>
-                    <option value="">Service 1</option>
-                    <option value="">Service 2</option>
-                    <option value="">Service 3</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
-                </div>
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6 px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- end contact section -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Testimonial
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-9 mx-auto">
-          <div id="customCarousel2" class="carousel slide" data-ride="carousel">
-            <div class="row">
-              <div class="col-md-11">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="box">
-                      <div class="client_id">
-                        <div class="img-box">
-                          <img src="images/client.jpg" alt="" />
-                        </div>
-                        <h5>
-                          Alex Jonson
-                        </h5>
-                      </div>
-                      <div class="detail-box">
-                        <p>
-                          ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="box">
-                      <div class="client_id">
-                        <div class="img-box">
-                          <img src="images/client.jpg" alt="" />
-                        </div>
-                        <h5>
-                          Alex Jonson
-                        </h5>
-                      </div>
-                      <div class="detail-box">
-                        <p>
-                          ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="box">
-                      <div class="client_id">
-                        <div class="img-box">
-                          <img src="images/client.jpg" alt="" />
-                        </div>
-                        <h5>
-                          Alex Jonson
-                        </h5>
-                      </div>
-                      <div class="detail-box">
-                        <p>
-                          ipsum dolor sit amet, consectetur adipiscing elit,
-                          sed do eiusmod tempor incididunt ut labore et dolore
-                          magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex ea
-                          commodo consequat. Duis aute irure dolor in
-                          reprehenderit in voluptate velit
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1">
-                <ol class="carousel-indicators">
-                  <li data-target="#customCarousel2" data-slide-to="0" class="active"></li>
-                  <li data-target="#customCarousel2" data-slide-to="1"></li>
-                  <li data-target="#customCarousel2" data-slide-to="2"></li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end client section -->
 
   <!-- info section -->
 
@@ -495,73 +440,9 @@
     <div class="info_container layout_padding2">
       <div class="container">
         <div class="info_logo">
-          <a class="navbar-brand" href="index.html"> Tro<span>Weld</span> </a>
+          <a class="navbar-brand" href="#home"> SITE<span>INGENIERÍA</span> </a>
         </div>
-        <div class="info_main">
-          <div class="row">
-            <div class="col-md-3 col-lg-2">
-              <div class="info_link-box">
-                <h5>
-                  Useful Link
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">About </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="service.html">Services </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="portfolio.html"> Portfolio </a>
-                  </li>
-                  <li class="">
-                    <a class="" href="contact.html"> Contact </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-3 ">
-              <h5>
-                Welding
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscinaliquaLoreadipiscing
-              </p>
-            </div>
-            <div class="col-md-3 mx-auto  ">
-              <h5>
-                social media
-              </h5>
-              <div class="social_box">
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="#">
-                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <h5>
-                Our welding center
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipiscinaliquaLoreadipiscing
-              </p>
-            </div>
-          </div>
-        </div>
+
         <div class="info_bottom">
           <div class="row">
             <div class="col-lg-9">
@@ -616,8 +497,7 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        &copy; <span id="displayYear"></span> Todos los derechos reservados
       </p>
     </div>
   </footer>

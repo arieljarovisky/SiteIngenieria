@@ -9,6 +9,7 @@ getYear();
 
 
 
+
 // owl carousel slider js
 var owl = $('.portfolio_carousel').owlCarousel({
     loop: true,
@@ -63,3 +64,22 @@ function myMap() {
 $(document).ready(function () {
     $('select').niceSelect();
 });
+
+$(".clients_carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 5
+      }
+    }
+  });
+  
