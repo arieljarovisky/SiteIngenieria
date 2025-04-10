@@ -61,6 +61,7 @@
 @media (max-width: 767px) {
   .slider_section .detail-box {
     text-align: center;
+    margin-top: 20%;
   }
 
   .slider_section .detail-box .btn-box {

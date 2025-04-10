@@ -7,6 +7,48 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+.maps_section {
+  padding: 60px 0;
+  background-color: #f2f2f2;
+}
+
+.map_container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 ratio */
+}
+
+.map_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp_float img {
+  width: 35px;
+  height: 35px;
+}
+
+
 .title_client{
   margin-top: 20px;
   margin-bottom: 50px;
