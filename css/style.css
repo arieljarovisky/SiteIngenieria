@@ -11,7 +11,9 @@ body {
   padding: 60px 0;
   background-color: #f2f2f2;
 }
-
+.logo-home{
+  margin-top: 10%;
+}
 .map_container {
   position: relative;
   overflow: hidden;
@@ -711,6 +713,9 @@ a:focus {
 
 .portfolio_section .box .img-box {
   position: relative;
+  max-width: 500px;
+  max-height: 400px;
+  min-height: 400px;
 }
 
 .portfolio_section .box .img-box img {
