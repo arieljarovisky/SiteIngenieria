@@ -14,7 +14,7 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 2rem;
-  border-left: 5px solid #0d6efd;
+  border-left: 5px solid #ff8000;
   padding-left: 10px;
   margin-bottom: 5rem;
   margin-top: 20px;
@@ -42,12 +42,13 @@ body {
 }
 
 .highlight {
-  color: #0d6efd;
+  color: #ff8000;
   font-weight: bold;
 }
 .icon {
-  font-size: 2rem;
-  color: #0d6efd;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #ff8000;
 }
 .service-box {
   background: white;
@@ -59,7 +60,7 @@ body {
 .test-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #0d6efd;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 .layout_padding {
